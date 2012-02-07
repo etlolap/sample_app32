@@ -28,7 +28,9 @@ GEM
     activesupport (3.2.1)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    annotate (2.4.1.beta1)
     arel (3.0.0)
+    bcrypt-ruby (3.0.1)
     builder (3.0.0)
     capybara (1.1.2)
       mime-types (>= 1.16)
@@ -107,8 +109,8 @@ GEM
       rspec (~> 2.8.0)
     rubyzip (0.9.5)
     sass (3.1.14)
-    sass-rails (3.2.4)
-      railties (~> 3.2.0)
+    sass-rails (3.2.3)
+      railties (~> 3.2.0.beta)
       sass (>= 3.1.10)
       tilt (~> 1.3)
     selenium-webdriver (2.18.0)
@@ -127,7 +129,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.31)
-    uglifier (1.2.3)
+    uglifier (1.0.3)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
     xpath (0.1.4)
@@ -137,12 +139,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara
-  coffee-rails (~> 3.2.1)
-  jquery-rails
-  pg
+  annotate (~> 2.4.1.beta)
+  bcrypt-ruby (= 3.0.1)
+  capybara (= 1.1.2)
+  coffee-rails (= 3.2.2)
+  jquery-rails (= 2.0.0)
+  pg (= 0.12.2)
   rails (= 3.2.1)
-  rspec-rails
-  sass-rails (~> 3.2.3)
-  sqlite3
-  uglifier (>= 1.0.3)
+  rspec-rails (= 2.8.1)
+  sass-rails (= 3.2.3)
+  sqlite3 (= 1.3.5)
+  uglifier (= 1.0.3)
